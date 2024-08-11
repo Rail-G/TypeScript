@@ -1,0 +1,13 @@
+image: Visual Studio 2022
+environment:
+  matrix:
+    - nodejs_version: "20"
+branches:
+  only:
+    - master
+cache: node_modules
+install: 
+  - npm install --force
+build: off
+test_script: 
+  - npm run jest && npm run lint
