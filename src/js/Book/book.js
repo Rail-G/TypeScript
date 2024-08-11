@@ -8,3 +8,4 @@ class Book {
     }
 }
 exports.default = Book;
+//# sourceMappingURL=book.js.map

@@ -14,3 +14,4 @@ class Movie {
     }
 }
 exports.default = Movie;
+//# sourceMappingURL=movie.js.map
